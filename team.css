@@ -1,6 +1,7 @@
 .flexPic{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo{
   margin-top: 20px;
@@ -13,10 +14,11 @@ body{
 h1{
   color: white;
   font-size: 100px;
+    font-family: 'Barlow', sans-serif;
 }
 #menu{
   /* font-family: 'Montserrat', sans-serif; */
-      font-family: 'Tomorrow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -57,7 +59,7 @@ button:focus{
   color: white;
   display: block;
   transition: 0.3s;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .sidenav a:hover {
@@ -73,6 +75,10 @@ button:focus{
   margin-left: 50px;
   z-index: 100;
 }
+a{
+  margin-bottom: 20px;
+}
+
 .item{
               display: inline-block;
               vertical-align: top;
