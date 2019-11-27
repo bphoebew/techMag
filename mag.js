@@ -70,7 +70,7 @@ false},easing:function(a,b,c,d,e){return d*Math.sqrt(1-(b=b/e-1)*b)+c}},a);this.
 
 jQuery(function($) {
 $("#flipbook").turn({
-		width: 900,
+		width: 1800,
 		height: 600,
 		autoCenter: true
 });

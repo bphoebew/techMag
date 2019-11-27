@@ -2,38 +2,49 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>magazine | what's up with tech?</title>
+    <title>issues | what's up with tech?</title>
+    <link rel="icon" type="image/png" href="logo.PNG">
     <link href="https://fonts.googleapis.com/css?family=Barlow:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="mag.css">
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="mag.html">Magazine</a>
-  <a href="#">Process</a>
+  <a href="about.html">About</a>
+  <a href="mag.html">Issues</a>
+  <a href="process.html">Process</a>
   <a href="team.html">Team</a>
 </div>
 
 <div id="main">
   <div class = "flexPic">
-    <a href = "index.html"><img class = "logo" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/600px-Overwatch_circle_logo.svg.png"></a>
+    <a href = "index.html"><img class = "logo" src = "logo.PNG"></a>
   </div>
-  <h1> Issue One </h1>
+  <div class="item animated fadeInRight">
+    <h1> Issues </h1>
+  </div>
+
+  <h2> #1 </h2>
   <section class="book">
   <div id="flipbook">
-  	<div class="hard"> What's Up With Tech? </div>
+  	<div class="hard">
+      <img class = "pageOne" src = "cover.jpeg">
+     </div>
   	<div class="hard"></div>
-  	<div class="pg"> Page 1 </div>
-  	<div class="pg"> Page 2 </div>
-  	<div class="pgT"> Page 3 </div>
-  	<div class="pgT"> Page 4 </div>
-    <div class="pg"> Page 5 </div>
-    <div class="pg"> Page 6 </div>
+  	<!-- <div class="pg"> Page 1 </div> -->
+    <div class = "pgW">
+      <img class = "pageTwo" src = "tableContent.png">
+    </div>
+  	<div class="pgW"> <img class = "pageThree" src = "pageOne.jpeg"> </div>
+  	<div class="pgW"> <img class = "pageTwo" src = "pageTwo.jpeg"> </div>
+  	<div class="pgW"> <img class = "pageThree" src = "pageThree.jpeg"> </div>
+    <div class="pgW"> <img class = "pageTwo" src = "pageFour.jpeg"> </div>
+    <div class="pgW"> Page 6 </div>
   	<div class="hard"></div>
   	<div class="hard"></div>
   </div>
   </section>
+    <h2> Download the PDF Version of Issue One <a class = "here" href = "">Here </a></h2>
   <button id = "menu" style = "cursor:pointer" onclick = "openNav()"> Menu </button>
 </div>
 
