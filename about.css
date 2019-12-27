@@ -177,6 +177,14 @@ body{
 .here:visited{
     color: #6356F4;
 }
+.para{
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  width: 800px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .item{
               /* display: inline-block; */
               /* vertical-align: top; */
